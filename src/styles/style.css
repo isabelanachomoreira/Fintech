@@ -1,0 +1,33 @@
+@import url("./global.css");
+
+header{
+    display: flex; /* Para o grupo ficar ao lado de outro*/
+    justify-content:space-around; /* Colocar os elementos nas extremidades*/
+    align-items: center; /* Alinhamento dos elementos no eixo vertical*/ 
+    padding: 46px; /* Espaçamento interno*/
+    border-bottom: 2px solid var(--color-primary); /* borda inferior */
+    background: var(--color-secondary);
+
+}
+
+.navigation-header ul{
+    display: flex;
+    gap: 45px;
+    color: var(--color-neutral);
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+}
+
+.btn-header{
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-button);
+    border-radius: 10px;
+    background-color: var(--color-primary);
+    color: var(--color-neutral);
+    padding: 10px 20px;
+    border: 20px;
+    text-decoration: none;
+}
