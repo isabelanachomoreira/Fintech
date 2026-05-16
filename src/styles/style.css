@@ -26,7 +26,7 @@ header{
 }
 
 .navigation-header ul li a:hover{
-        color: var(--color-primary);
+     color: var(--color-primary);
 }
 
 .btn-header{
@@ -170,5 +170,100 @@ main {
 }
 
 /*---------FOOTER-----------*/
+
+footer{
+    display: flex; /* Para o grupo ficar ao lado de outro*/
+    justify-content:space-around; /* Colocar os elementos nas extremidades*/
+    align-items: flex-start; /* Alinhamento dos elementos no eixo vertical*/ 
+    padding: 80px; /* Espaçamento interno*/
+    border-top: 1px solid var(--color-neutral); /* borda superior */
+    background: var(--color-secondary); /*cor de fundo*/
+}
+
+.footer-information{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-content h2{
+    color: var(--color-neutral);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-button);
+}
+
+.footer-content ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 8px;
+
+}
+
+.footer-content ul li a{
+    color: var(--color-neutral);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-content ul li a:hover{
+    color: var(--color-primary);
+}
+
+
+.footer-subscription{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-subscription h2{
+    color: var(--color-neutral);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-button);
+    width: 198px;
+
+}
+
+.footer-subscription form{
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid #4d4d4d;
+    padding: 16px;
+}
+
+
+.footer-subscription input{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-neutral);
+    background-color: transparent;
+}
+
+.footer-subscription input::placeholder{
+    color: #fff;
+}
+
+.footer-subscription button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    padding: 11px 11px;
+    border-radius: 50px;
+
+}
 
 
