@@ -126,3 +126,49 @@ main {
     font-weight: var(--font-weight-body);
     width: 603px;
 }
+
+/*-----BENEFITS------*/
+
+.section-benefits{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    padding: 60px;
+    background-color: var(--color-secondary);
+    gap: 24px;
+}
+
+.benefits-content{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    gap: 16px;
+    text-align: center;
+}
+
+.benefits-content h2{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+    color: var(--color-neutral);
+    width: 730px;
+    
+}
+
+.benefits-content h2 span{
+    color: var(--color-primary);
+}
+
+.benefits-content p{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    color: var(--color-neutral);
+    width:730px;
+}
+
+/*---------FOOTER-----------*/
+
+
