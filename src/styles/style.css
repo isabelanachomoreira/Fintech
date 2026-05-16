@@ -93,3 +93,36 @@ main {
 
 /*-----SERVICES-----*/
 
+.section-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75.5px;
+    background-color: var (--color-neutral);
+    gap: 100px;
+}
+
+.services-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.section-services h2{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+    width: 443px;
+}
+
+.section-services h2 span{
+    color: var(--color-primary);
+}
+
+.section-services p{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    width: 603px;
+}
