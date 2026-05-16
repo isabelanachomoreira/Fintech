@@ -13,12 +13,20 @@ header{
 .navigation-header ul{
     display: flex;
     gap: 45px;
-    color: var(--color-neutral);
     text-decoration: none;
     list-style: none;
+}
+
+.navigation-header ul li a{
+    color: var(--color-neutral);
     font-family: var(--font-family-primary);
     font-size: var(--font-size-body);
     font-weight: var(--font-weight-body);
+    text-decoration: none;
+}
+
+.navigation-header ul li a:hover{
+        color: var(--color-primary);
 }
 
 .btn-header{
@@ -31,3 +39,57 @@ header{
     border: 20px;
     text-decoration: none;
 }
+
+/*-------MAIN-------*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 79.5px;
+    background-color: var(--color-secondary);
+}
+
+.main-content{
+    display:flex;
+    flex-direction: column; 
+    text-align: left;
+    gap: 25px;
+}
+
+.main-content h1{
+    flex-direction: column;
+    color: var(--color-neutral);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-h1);
+    width: 499px;
+}
+
+.main-content span{
+    color: var(--color-primary);
+}
+
+.main-content p{
+    text-align: left;
+    color: var(--color-neutral);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    gap: 25px;
+    width: 497px;
+}
+
+.container-cta .btn-primary{
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-button);
+    border-radius: 8px;
+    border: 1px solid var(--color-primary);
+    background-color: var(--color-secondary);
+    color: var(--color-neutral);
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+/*-----SERVICES-----*/
+
